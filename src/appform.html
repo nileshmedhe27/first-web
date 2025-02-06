@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="my1stex.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="navbar"> 
+        <img id="logo" src="https://www.pngitem.com/pimgs/m/650-6503651_navbar-logo-hd-png-download.png" alt="navbarlogo">
+        
+    </div>
+
+    <div id="application">
+        <h2>submit your Application</h2>
+
+        <form action="" id="application-form">
+
+            <div class="form-group">
+                <label for="Name">Full Name</label><br>
+                <input type="text" id="name" name="full name" required placeholder="type here">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label><br>
+                <input type="email" id="mail" name="email" required placeholder="type here">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone no</label><br>
+                <input type="tel" id="phone" required placeholder="mobile no ">
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of birth </label><br>
+                <input type="date" id="dob" required >
+            </div>
+
+            <div class="form-group">
+                <label for="positin">Position applied for</label><br>
+                <select name="position applied" id="positin">
+                    <option value="frontend">frontend dev</option>
+                    <option value="Fullstack">Fullstack dev</option>
+                    <option value="scientist">data scientist</option>
+                    <option value="ML ">ML engineer</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="resume">upload Resume</label><br>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+
+            </div>
+
+            <div class="form-group">
+                <label for="coverletter">coverletter</label><br>
+                <textarea name="coverletter" id="coverletter" rows="5" placeholder="Explain what makes you suitable for this job"></textarea>
+
+            </div>
+
+            <div class="form-group">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agreed to the terms and condtions 
+                </label>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="submit">
+            </div>
+
+
+        </form>
+    </div>
+</body>
+</html>
